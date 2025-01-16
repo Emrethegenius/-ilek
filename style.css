@@ -785,8 +785,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
+    gap: 0.4rem;
+    position: absolute; /* Position absolutely within the question box */
+    top: -0.1rem; /* Adjust top position as needed */
+    right: 0.4rem; /* Adjust right position as needed */
 }
 
 .timer-container .stat-label {
